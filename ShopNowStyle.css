@@ -1,0 +1,335 @@
+/* Here's the CSS code with comments added and properly indented:
+
+```css */
+/* Navbar styles */
+.navbar {
+    padding-left: 50px;
+    padding-top: 40px;
+    background-color: #ffc194;
+    overflow: hidden;
+    font-family: calibri;
+}
+
+/* Navbar link styles */
+.navbar a {
+    float: right;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* Navbar link styles for different states */
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Dropdown button styles */
+.dropbtn {
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: bold;
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Dropdown container styles */
+.dropdown {
+    position: absolute;
+    top: 190px;
+    text-align: right;
+    right: 100px;
+    font-size: 30px;
+    padding: 1px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Dropdown content styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d9d9d9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d9d9d9;
+}
+
+/* Logo styles */
+.logo {
+    height: 100px;
+    width: 450px;
+    position: absolute;
+}
+
+/* Body styles */
+body {
+    background-color: #ffc194;
+    margin: 0px;
+	font-family: calibri;
+}
+
+/* Cart styles */
+.Cart {
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+    position: absolute;
+    left: 600px;
+    top: 55px;
+}
+
+/* Heading styles */
+.fied {
+    left: 100px;
+    font-size: 35px;
+    position: absolute;
+    top: 190px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Search container styles */
+.search {
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 200px;
+    text-align: right;
+    right: 150px;
+    font-size: 30px;
+    padding: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Search container submit button styles */
+.search-containersubmit {
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 200px;
+    text-align: right;
+    right: 65px;
+    font-size: 30px;
+    padding: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border: 1px solid #111;
+}
+
+/* Button hover styles */
+button:hover {
+    color: none;
+    background-color: #555;
+    text-decoration: underline;
+}
+
+/* Button styles */
+.button {
+    font-size: 50px;
+    font-family: calibri;
+    border-radius: 10px;
+}
+
+/* Product image and text container styles and Product text styles */
+.cathoodie{
+    position: absolute;
+    top: 300px;
+    left:150px;
+    height: 490px;
+    width: 490px;
+    background-color: lightgrey;
+	border-radius: 20px;
+	border: 5px solid #555;
+}
+
+.hoodie{
+    position: absolute;
+    top: 420px;
+    left:275px;
+    font-size: 60px;
+}
+
+.tanktop{
+    position: absolute;
+    top: 300px;
+    left:850px;
+    height: 490px;
+    width: 490px;
+    background-color: lightgrey;
+	border-radius: 20px;
+	border: 5px solid #555;
+}
+.tanktoptext{
+    position: absolute;
+    top: 430px;
+    left:970px;
+    font-size: 60px;
+}
+
+.tshirt{
+    position: absolute;
+    top: 900px;
+    left:150px;
+    height: 490px;
+    width: 490px;
+    background-color: lightgrey;
+	border-radius: 20px;
+	border: 5px solid #555;
+}
+.tshirttext{
+    position: absolute;
+    top: 1020px;
+    left:305px;
+    font-size: 60px;
+
+}
+
+.pants{
+    position: absolute;
+    top: 900px;
+    left:810px;
+    height: 490px;
+    width: 490px;
+    background-color: lightgrey;
+	border-radius: 20px;
+	border: 5px solid #555;
+}
+.pantstext{
+    position: absolute;
+    top: 1020px;
+    left:1020px;
+    font-size: 60px;
+
+}
+
+.short{
+    position: absolute;
+    top: 1490px;
+    left:150px;
+    height: 490px;
+    width: 490px;
+    background-color: lightgrey;
+	border-radius: 20px;
+	border: 5px solid #555;
+}
+.shorttext{
+    position: absolute;
+    top: 1600px;
+    left:315px;
+    font-size: 60px;
+
+}
+
+.jacket{
+    position: absolute;
+    top: 1490px;
+    left:810px;
+    height: 490px;
+    width: 490px;
+    background-color: lightgrey;
+	border-radius: 20px;
+	border: 5px solid #555;
+}
+.jacketstext{
+    position: absolute;
+    top: 1600px;
+    left:960px;
+    font-size: 60px;
+	
+}
+
+
+
+/* Footer styles */
+.footer {
+    background-color: dimgray;
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+}
+
+/* Footer logo styles */
+.ftlogo {
+    height: 100px;
+    width: 350px;
+    left: 0px;
+    float: left;
+    top: 90px;
+    position: absolute;
+    left: 40px;
+}
+
+/* Footer navigation styles */
+.ftnav {
+    float: left;
+    right: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+
+/* Footer navigation link styles */
+.ftnav a {
+    color: white;
+}
+
+/* Copyright text styles */
+.copyright {
+    text-align: left;
+    top: 200px;
+    position: absolute;
+    left: 20px;
+}
+
+/* Footer contact information styles */
+.ftcontact {
+    left: 800px;
+    position: absolute;
+    font-size: 40px;
+    bottom: 10px;
+}
