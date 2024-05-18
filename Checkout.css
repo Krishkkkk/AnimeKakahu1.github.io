@@ -1,0 +1,159 @@
+/* Navigation bar styling */
+.navbar {
+    padding-left: 50px;
+    padding-top: 40px;
+    background-color: #ffc194;
+    overflow: hidden;
+    font-family: calibri;
+}
+
+/* Styling for links in the navbar */
+.navbar a {
+    float: right;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* Styling for the logo */
+.logo {
+    height: 100px;
+    width: 450px;
+    position: absolute;
+}
+
+/* Styling for headings */
+header {
+    padding: 0px;
+    text-align: center;
+    font-size: 56px;
+    color: black;
+    font-family: calibri;
+}
+
+/* Styling for paragraphs */
+p {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Additional paragraph styling */
+.p2 {
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    color: black;
+    text-align: center;
+    font-family: calibri;
+}
+
+/* Styling for the main container */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Styling for the centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    background-color: black;
+    opacity: 0.7;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* Styling for links */
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Body styling */
+body {
+    background-color: #ffc194;
+    margin: 0px;
+}
+
+/* Styling for the footer */
+.footer {
+    background-color: #605C5C;
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+}
+
+/* Styling for the footer logo */
+.ftlogo {
+    height: 100px;
+    width: 350px;
+    left: 0px;
+    float: left;
+    top: 90px;
+    position: absolute;
+    left: 40px;
+}
+
+/* Styling for the footer navigation */
+.ftnav {
+    float: left;
+    right: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+/* Styling for links in the footer navigation */
+.ftnav a {
+    color: white;
+}
+
+/* Styling for copyright text */
+.copyright {
+    text-align: left;
+    top: 210px;
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    color: white;
+}
+
+/* Styling for contact information in the footer */
+.ftcontact {
+    left: 800px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    bottom: 10px;
+}
+
+
