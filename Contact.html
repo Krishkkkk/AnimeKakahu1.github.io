@@ -1,135 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Us - Anime Kakahu</title>
-    <style>
-       
-        .form-wrapper {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333333;
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #333333;
-            font-weight: bold;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-size: 16px;
-            background-color: #fafafa;
-            transition: background-color 0.3s ease;
-        }
-
-        input[type="text"]:focus,
-        input[type="email"]:focus,
-        textarea:focus {
-            background-color: #fff;
-            border-color: #04AA6D;
-            outline: none;
-        }
-
-        textarea {
-            resize: none;
-            height: 150px;
-        }
-
-        .submit-button {
-            display: block;
-            width: 100%;
-            padding: 15px;
-            background-color: #04AA6D;
-            color: #ffffff;
-            border: none;
-            border-radius: 8px;
-            font-size: 18px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .submit-button:hover {
-            background-color: #028a54;
-        }
-
-        .contact-info {
-            text-align: center;
-            margin-top: 20px;
-            color: #333333;
-        }
-
-        .contact-info p {
-            margin: 5px 0;
-            font-size: 18px;
-        }
-    </style>
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="Contact.css">
+    <!-- Title of the webpage -->
+    <title>Anime Kakahu</title>
+    <!-- Link to the favicon -->
+    <link rel="icon" href="Anime%20Kakahu%20(1).png">
 </head>
 <body>
 
-<div class="form-wrapper">
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/xrbggovr" method="post">
+<!-- Navigation bar -->
+<div class="navbar">
+    <!-- Logo with a link to the home page -->
+    <a href="index.html" class="logo"><img src="Anime%20Kakahu%20(1).png"></a>
+    <!-- Links to other pages -->
+    <a href="Contact.html"><u>Contact Us</u></a>
+    <a href="About Us.html">About Us</a>
+    <a href="ShopNow.html">Shop Now</a>
+    <a href="index.html">Home</a>
+</div>
 
+<!-- Main content section -->
+<div class="sale">
+    <hr>
+    <!-- Header for the contact information -->
+    <header><b>Contact Us</b></header>
+
+    <hr>
+    <!-- Header for the feedback form -->
+    <header>Your Feedback</header>
+    <hr>
+    <!-- Feedback form container -->
+<form action="https://formspree.io/f/xrbggovr" method="post">
+    <div class="container form-container">
         <!-- E-mail -->
-        <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">E-mail</label>
+            </div>
+            <div class="col-75">
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+            </div>
         </div>
 
         <!-- First Name -->
-        <div class="form-group">
-            <label for="firstname">First Name</label>
-            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name..." required>
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Enter your first name..." required>
+            </div>
         </div>
 
         <!-- Last Name -->
-        <div class="form-group">
-            <label for="lastname">Last Name</label>
-            <input type="text" id="lastname" name="lastname" placeholder="Enter your last name..." required>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name..." required>
+            </div>
         </div>
 
         <!-- Subject -->
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Enter the subject..." required>
+        <div class="row">
+            <div class="col-25">
+                <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject..." required>
+            </div>
         </div>
 
         <!-- Feedback -->
-        <div class="form-group">
-            <label for="message">Your Feedback</label>
-            <textarea id="message" name="message" placeholder="Enter your feedback..." required></textarea>
+        <div class="row">
+            <div class="col-25">
+                <label for="message">Your Feedback</label>
+            </div>
+            <div class="col-75">
+                <textarea id="message" name="message" placeholder="Enter your feedback..." style="height:150px" required></textarea>
+            </div>
         </div>
 
         <!-- Submit Button -->
-        <button type="submit" class="submit-button">Submit</button>
-
-    </form>
-
-    <!-- Contact Information -->
-    <div class="contact-info">
-        <p>Call us: 0228008135</p>
-        <p>Address: C/4 Queen St, CBD, Hamilton</p>
-        <p>Instagram: @anime_kakahu</p>
+        <div class="row">
+            <button type="submit" class="submit-button">Submit Feedback</button>
+        </div>
     </div>
+</form>
+
+
+
+        <hr>
+    <!-- Contact information -->
+    <p class="p2">Call us - 0228008135</p>
+    <p class="p2">Address - C/4 Queen st, CBD, Hamilton.</p>
+    <p class="p2">Instagram - @anime_kakahup</p>
+    
+<!-- Footer -->
+<div class="footer">
+    <!-- Navigation links in the footer -->
+    <p class="ftnav"><a href="index.html">Home|</a><a href="ShopNow.html">Shop Now|</a><a href="About Us.html">About Us|</a><a href="Contact.html.html">Contact Us</a></p>
+    <!-- Logo in the footer -->
+    <img class="ftlogo" src="Anime%20Kakahu%20(1).png">
+    <!-- Contact information in the footer -->
+    <p class="ftcontact">Email: anime.kakahu@gmail.com<br>Phone: 0228008135<br>Instagram: @anime_kakahu</p>
+    <!-- Copyright information -->
+    <p class="copyright">©Copyright 2024  Anime Kakahu</p>
 </div>
 
 </body>
